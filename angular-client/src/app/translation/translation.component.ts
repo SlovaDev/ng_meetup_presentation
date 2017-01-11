@@ -9,7 +9,11 @@ import { TRANSLATIONS } from '../mock-translations';
 })
 export class TranslationComponent implements OnInit {
 
-  constructor() { }
+  translations: Translation[];
+  
+  constructor() {
+    this.translations = TRANSLATIONS;
+   }
 
   ngOnInit() {
   }

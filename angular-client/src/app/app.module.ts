@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { TranslationComponent } from './translation/translation.component';
+import { TranslationService } from './translation-service.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { TranslationComponent } from './translation/translation.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [TranslationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

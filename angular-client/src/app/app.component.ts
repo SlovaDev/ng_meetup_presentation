@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TRANSLATIONS } from './mock-translations';
 
 @Component({
   selector: 'app-root',
